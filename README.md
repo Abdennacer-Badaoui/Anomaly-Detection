@@ -14,11 +14,13 @@ Anomaly detection, also known as outlier detection, is a critical process in dat
 Local Outlier Factor (LOF) is an unsupervised anomaly detection method that identifies anomalies by measuring the local density deviation of a data point with respect to its neighbors. The core idea is that anomalies are points that have a significantly lower density than their neighbors.
 
 - Advantages:
+  
 Effective for detecting local anomalies.
 
 Does not require prior labeling of data.
 
  - Disadvantages:
+   
 Sensitive to the choice of the number of neighbors.
 
 Computationally expensive for large datasets.
