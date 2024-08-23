@@ -28,13 +28,16 @@ Computationally expensive for large datasets.
 ### Autoencoder
 An Autoencoder is a type of neural network used for unsupervised learning of efficient codings. It works by compressing the input into a lower-dimensional representation and then reconstructing the output from this representation. Anomalies are detected based on reconstruction error: the larger the error, the more likely it is an anomaly.
 
-### Advantages:
+ - Advantages:
 
 Can capture complex patterns in data.
+
 Effective for high-dimensional datasets.
-### Disadvantages:
+
+ - Disadvantages:
 
 Requires careful tuning of network architecture and parameters.
+
 Needs a substantial amount of normal data for training.
 
 
